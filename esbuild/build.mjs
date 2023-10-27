@@ -1,5 +1,5 @@
-const esbuild = require('esbuild')
-const sassPlugin = require('esbuild-plugin-sass')
+import esbuild from "esbuild";
+import sassPlugin from "esbuild-plugin-sass";
 
 esbuild.build({
   entryPoints: ['source/index.js'],
@@ -7,5 +7,7 @@ esbuild.build({
   outfile: 'docs/bundle.js',
   sourcemap: true,
   platform: "browser",
+  minify: true,
   plugins: [sassPlugin()],
+  target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
 })

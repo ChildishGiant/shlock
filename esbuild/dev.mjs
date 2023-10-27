@@ -1,14 +1,16 @@
-const esbuild = require('esbuild')
-const FiveServer = require('five-server').default
-const sassPlugin = require('esbuild-plugin-sass')
+import esbuild from "esbuild";
+import pkg from 'five-server'
+const { default: FiveServer } = pkg
+import sassPlugin from "esbuild-plugin-sass";
 
-esbuild.build({
+await esbuild.build({
   entryPoints: ['source/index.js'],
   bundle: true,
   outfile: 'docs/bundle.js',
   sourcemap: true,
   platform: "browser",
   plugins: [sassPlugin()],
+  target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
   watch: {
     onRebuild (error, result) {
       if (error) console.error('watch build failed:', error)
@@ -22,7 +24,7 @@ esbuild.build({
   new FiveServer().start({
     root: './docs',
     open: true,
-    port: 1234
+    port: 8080
   })
 
 })

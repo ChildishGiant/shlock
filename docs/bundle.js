@@ -1,5 +1,5 @@
 (() => {
   // source/index.js
-  console.log("trest");
+  console.log("Hello, world!");
 })();
 //# sourceMappingURL=bundle.js.map

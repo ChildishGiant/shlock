@@ -4,7 +4,8 @@ import sassPlugin from "esbuild-plugin-sass";
 esbuild.build({
   entryPoints: ['source/index.js'],
   bundle: true,
-  outfile: 'docs/bundle.js',
+  outdir: 'www',
+  assetNames: '[name]-[hash]',
   sourcemap: true,
   platform: "browser",
   minify: true,

@@ -11,4 +11,5 @@ esbuild.build({
   minify: true,
   plugins: [sassPlugin()],
   target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
+  loader: {'.png': 'dataurl'}
 })

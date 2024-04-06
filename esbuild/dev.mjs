@@ -9,7 +9,7 @@ let ctx = await esbuild.context({
   platform: "browser",
   plugins: [sassPlugin()],
   target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
-
+  loader: {'.png': 'dataurl'}
 })
 
 let {host, port} = await ctx.serve({

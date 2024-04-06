@@ -1,0 +1,10 @@
+{
+  "json.schemas": [
+    {
+        "fileMatch": [
+            "./source/places_source.json"
+        ],
+        "url": "./source/places.json_schema"
+    }
+]
+}

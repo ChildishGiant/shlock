@@ -1,7 +1,51 @@
 /*!
- * Copyright 202X Allie Law <allie@cloverleaf.app>
+ * Copyright 2024 Allie Law <allie@cloverleaf.app>
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-html, body
+// Variables for light theme
+$light-bg-color: #ffffff
+$light-text-color: #333333
+
+// Variables for dark theme
+$dark-bg-color: #333333
+$dark-text-color: #ffffff
+
+// Apply light theme by default
+:root
+  --bg-color: #{$light-bg-color}
+  --text-color: #{$light-text-color}
+  --dark-bg-color: #{$dark-bg-color}
+  --dark-text-color: #{$dark-text-color}
+
+.dark-theme
+  background-color: var(--dark-bg-color)
+  color: var(--dark-text-color)
+
+html
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  background-color: var(--bg-color)
+  color: var(--text-color)
+
+body
+  height:100vh
+  width:100vw
+  margin: 0
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+
+
+a:visited
+  color: #b361da
+
+#map
+  padding: 5px
+  width: calc(100% - 10px)
+  height: 90%
+  margin: 10px
+  text-align: center
+
+leaflet-popup-content h1
+  margin-block-end: 0

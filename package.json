@@ -1,6 +1,6 @@
 {
-  "name": "esbuild-template",
-  "version": "0.0.2",
+  "name": "shlock",
+  "version": "0.0.1",
   "description": "",
   "main": "test.js",
   "scripts": {
@@ -10,17 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChildishGiant/esbuild-template.git"
+    "url": "git+https://github.com/ChildishGiant/shlock.git"
   },
   "author": "Allie Law",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ChildishGiant/esbuild-template/issues"
+    "url": "https://github.com/ChildishGiant/shlock/issues"
   },
-  "homepage": "https://github.com/ChildishGiant/esbuild-template#readme",
+  "homepage": "https://github.com/ChildishGiant/shlock#readme",
   "devDependencies": {
     "ejs": "^3.1.9",
     "esbuild": "^0.20.2",
-    "esbuild-plugin-sass": "^1.0.1"
+    "esbuild-plugin-sass": "^1.0.1",
+    "esbuild-sass-plugin": "^3.2.0",
+    "esbuild-serve": "^1.0.1",
+    "five-server": "^0.3.2"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
   }
 }

@@ -1,0 +1,131 @@
+{
+  "221b Baker Street": {
+    "lat": 51.5233879,
+    "lng": -0.1582367,
+    "description": "The famed home of Sherlock Holmes and John Watson"
+  },
+  "Curzon Street": {
+    "lat": 51.5065156,
+    "lng": -0.1492949,
+    "reference": "THE ADVENTURE OF SHOSCOMBE OLD PLACE",
+    "ways": [
+      4253368,
+      647062688,
+      236034973,
+      35583681
+    ]
+  },
+  "Camford": {
+    "ellipse": [[51.978772, -0.569593], [75000,20000], 151.86, {"fill":true, "fillColor":"brown", "fillOpacity":0.1,"color":"brown"}],
+    "description": "This fictional university town was the home to Professor Presbury in <b>The Adventure of the Creeping Man<b>"
+  },
+  "Ross": {
+    "lat": "51.9140804",
+    "lng": "-2.5838357",
+    "reference": "\"It was nearly four o'clock when we at last, after passing through the beautiful Stroud Valley, and over the broad gleaming Severn, found ourselves at the pretty little country-town of Ross.\" - The Boscombe Valley Mystery",
+    "description": "Despite the name being changed to Ross-on-Wye in 1931 this is pretty little country town really exists!"
+  },
+  "Dartmoor": {
+    "elements": [
+      1928125
+    ]
+  },
+  "Oxford Street": {
+    "lat":51.51393,
+    "lng":-0.15381,
+    "ways":[
+      2199751,
+      6808986,
+      25469620,
+      33096423,
+      33096424,
+      38895571,
+      38895572,
+      41517346,
+      42709093,
+      42709094,
+      46180198,
+      47007863,
+      47007864,
+      93773949,
+      194259717,
+      204726687,
+      204726887,
+      209690397,
+      209691454,
+      209691456,
+      209692629,
+      232920161,
+      233067163,
+      233067166,
+      233068399,
+      233070703,
+      233070704,
+      233070705,
+      233070706,
+      468680743,
+      499705520,
+      501287734,
+      728793122,
+      728793125,
+      728793128,
+      733855113,
+      746024419,
+      955518102,
+      972210875,
+      977088264,
+      977088265,
+      977088266,
+      977590194,
+      977590195,
+      1015989832,
+      1106516556
+    ],
+    "mentions": [
+      {
+        "story":"Charles Augustus Milverton",
+        "quote":"In Oxford Street we picked up a hansom and drove to an address in Hampstead",
+        "description":""
+      },
+      {
+        "story":"Charles Augustus Milverton",
+        "quote":"We were in the middle of our lunch when he suddenly sprang to his feet. \"By Jove, Watson; I've got it!\" he cried. \"Take your hat! Come with me!\" He hurried at his top speed down Baker Street and along Oxford Street, until we had almost reached Regent Circus.",
+        "description":""
+      },
+      {
+        "story":"The Priory School",
+        "quote":"It would be as well, perhaps, for you to cross it. The Capital and Counties Bank, Oxford Street branch, are my agents."
+      },
+      {
+        "story":"The Empty House",
+        "quote":"In the evening I strolled across the Park, and found myself about six o'clock at the Oxford Street end of Park Lane."
+      },
+      {
+        "story":"The Resident Patient",
+        "quote":"We had crossed Oxford Street and were half way down Harley Street before I could get a word from my companion."
+      },
+      {
+        "story":"The Greek Interpreter",
+        "quote":"We had come out upon Oxford Street and I had ventured some remark as to this being a roundabout way to Kensington, when my words were arrested by the extraordinary conduct of my companion."
+      },
+      {
+        "story":"The Final Problem",
+        "quote":"I went out about mid-day to transact some business in Oxford Street."
+      },
+      {
+        "story":"The Hound of the Baskervilles",
+        "quote":"Dr. Mortimer and Baskerville were still visible about two hundred yards ahead of us in the direction of Oxford Street."
+      },
+      {
+        "story":"The Hound of the Baskervilles",
+        "quote":"Then, still keeping a hundred yards behind, we followed into Oxford Street and so down Regent Street."
+      },
+            {
+        "story":"The Hound of the Baskervilles",
+        "quote":"If you seriously desire to deceive me you must change your tobacconist; for when I see the stub of a cigarette marked Bradley, Oxford Street, I know that my friend Watson is in the neighbourhood."
+      }
+    ]
+  }
+}
+
+

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Place name": {
+      "type": "object",
+      "properties": {
+        "lat": {
+          "type": "number"
+        },
+        "lng": {
+          "type": "number"
+        },
+        "reference": {
+          "type": "string"
+        },
+        "elements": {
+          "description": "An array of the IDs of associated OSM objects",
+          "type": "array",
+          "items": {
+            "type":"integer"
+          }
+        }
+      },
+      "required": ["lat", "lng"]
+    }
+  },
+  "required": ["Place name"]
+}

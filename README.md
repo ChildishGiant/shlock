@@ -2,12 +2,12 @@
 A map of places mentioned the original Sherlock Holmes stories by Arthur Conan Doyle. 
 
 ### Todo (in vague priority order)
-TODO add more places (EG. `grep -rnw './canon/' -e 'Oxford Street'`, also look at the scraper results)
-TODO write descriptions for context in the story for mentions
-TODO ejs template for mentions with dropdown sections for each story if there's more than one
-TODO fix order of way points <https://github.com/mvexel/overpass-api-python-wrapper/discussions/164> | <https://discord.com/channels/413070382636072960/809158579667599451/1225967859516182589>
-TODO auto-generate md file of included places
-TODO stats of what places are mentioned the most
+* TODO add more places (EG. `grep -rnw './canon/' -e 'Oxford Street'`, also look at the scraper results)
+* TODO write descriptions for context in the story for mentions
+* TODO ejs template for mentions with dropdown sections for each story if there's more than one
+* TODO fix order of way points <https://github.com/mvexel/overpass-api-python-wrapper/discussions/164> | <https://discord.com/channels/413070382636072960/809158579667599451/1225967859516182589>
+* TODO auto-generate md file of included places
+* TODO stats of what places are mentioned the most
 
 
 ### Potential places
